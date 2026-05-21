@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define MAX 50000
+#define WORD 100
+
+// fungsi deklarasi
+
+void menuSortingDasar();
+void menuAdvanceSorting();
+
+void generateRandom(int arr[], int n);
+void shuffleInt(int arr[], int n);
+void tampilInt(int arr[], int n);
+
+void bubbleSort(int arr[], int n);
+void insertionSort(int arr[], int n);
+void selectionSort(int arr[], int n);
+
+int bacaFile(char data[][WORD]);
+void shuffleString(char data[][WORD], int n);
+void tampilString(char data[][WORD], int n);
+
+void shellSort(char arr[][WORD], int n);
+
+int partition(char arr[][WORD], int low, int high);
+void quickSort(char arr[][WORD], int low, int high);
+
+void merge(char arr[][WORD], int l, int m, int r);
+void mergeSort(char arr[][WORD], int l, int r);
